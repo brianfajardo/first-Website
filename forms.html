@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/css1learn.css">
+    <title>Learning HTML & CSS</title>
+    <script type='text/javascript' src='js/modernizr.js'></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Cascading Style Sheets Learning</h1>
+            <nav class="site-nav">
+                <ul class="group">
+                    <li><a href="specialeffects.html">CSS3 Special Effects</a></li>
+                    <li><a href="responsivegrids.html">Responsive Grids</a></li>
+                    <li><a href="responsive-web-design.html">Responsive Web Design</a></li>
+                    <li><a href="sprites.html">CSS Sprites</a></li>
+                    <li><a href="floats.html">Floats/Layout</a></li>
+                    <li><a class='current-nav' href="forms.html">Forms</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content-area group">
+        <div class="container">
+            <form>
+                <img src="images/brain2.png">
+                <!-- email and password-->
+                <label for="email" class="hiddenlabel">Email:</label>
+                <input type="email" name="email" id="name" placeholder="Email">
+                <label for="password" class="hiddenlabel">Password:</label>
+                <input id="password" type="password" name="password" placeholder="Password">
+                <select>
+                <!-- drop down menu for initial view-->
+                <option>Go to...</option>
+                <option value="Home">My Profile</option>
+                <option value="About">Inbox</option>
+                <option value="Portfolio">Account Settings</option>
+                <option value="Contact">Home</option>
+                </select>
+                <!-- login button-->
+                <input type="submit" value="Login">
+                <!-- stay signed in option (checkbox)-->
+                <div class="SSI">
+                    <input type="checkbox" name="remember" checked="checked" value="yes"><label for="yes">
+                    <label span class="checkbox-text">Stay signed in</span></label>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2017 Brian Fajardo. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
